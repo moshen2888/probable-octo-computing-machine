@@ -40,7 +40,7 @@ String vmTemplate =
                             + "MEMORY=\"8192\"\n"
                             + "HYPERVISOR=\"kvm\"\n"
                             + "RAW=[\n"
-                            + "\tDATA=\"<cpu match='exact'> <model>Haswell </model> <feature policy='require' name='vmx'> <feature policy='disable' name='rtm'> <feature policy='disable' name='hle'/> </cpu>\",\n"
+                            + "\tDATA=\"<cpu match='exact'> <model>Haswell</model> <feature policy='require' name='vmx'/> <feature policy='disable' name='rtm'/> <feature policy='disable' name='hle'/> </cpu>\",\n"
                             + "\tTYPE=\"kvm\" ]\n"
                             + "FEATURES=[\n"
                             + "\tAPIC=\"yes\",\n"
